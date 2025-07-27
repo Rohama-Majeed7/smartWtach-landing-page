@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-700 dark:bg-gray-900 py-5 shadow-md  px-6 text-center mt-20 transition-colors">
       <p className=" dark:text-gray-400 text-white">
-        © {new Date().getFullYear()} NoteGenius. All rights reserved.
+        © {new Date().getFullYear()} FitPulse. All rights reserved.
       </p>
     </footer>
   );

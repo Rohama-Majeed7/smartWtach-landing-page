@@ -39,11 +39,11 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className=" bg-white dark:bg-gray-900 w-[98vw]  max-w-[1050px] mx-auto  dark:bg-blend-darken  flex justify-center px-4 py-12 "
+      className="text-white dark:bg-gray-900 w-[98vw]  max-w-[1050px] mx-auto  dark:bg-blend-darken  flex justify-center px-4 py-12 "
     >
       <div className="flex flex-col-reverse w-[98vw]  max-w-[1050px] mx-auto md:flex-row gap-5 items-center justify-between">
         <div data-aos="fade-down" className="flex flex-col gap-5 md:w-1/2 ">
-          <h2 className="text-4xl font-bold text-blue-700">
+          <h2 className="text-4xl font-bold text-[#4fced5]">
             Stay Fit. Stay Smart.
           </h2>
           <p className="text-lg">
@@ -51,7 +51,7 @@ const HeroSection = () => {
             health tracking, sleek design, and smart features to power your
             lifestyle.
           </p>
-          <button className=" bg-blue-700 px-6 py-2 self-start text-white rounded-lg shadow hover:border-2 hover:border-blue-700 hover:text-blue-700 hover:bg-transparent transition">
+          <button className=" bg-[#4fced5] px-6 py-2 self-start text-white rounded-lg shadow hover:border-2 hover:border-[#4fced5] hover:text-[#4fced5] hover:bg-transparent transition">
             Buy Now
           </button>
         </div>

@@ -42,8 +42,8 @@ body {
 }
 
 html.light {
-  background-color: #fff;
-  color: #000;
+  background-color: #457e8c;
+  /* color: #000; */
 }
 
 html.dark body{

@@ -42,14 +42,14 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, content }) => {
         {/* Details */}
         <div className="flex flex-col gap-3  p-3 text-gray-700 dark:text-gray-200">
           <div className="flex gap-3 items-center  md:justify-between">
-            <h3 className="text-base text-blue-700 font-semibold uppercase tracking-wide">
+            <h3 className="text-base text-[#4fced5] font-semibold uppercase tracking-wide">
               Color :
             </h3>
             <p className="text-base font-bold">{content?.color}</p>
           </div>
 
           <div className="flex gap-3 items-center md:justify-between">
-            <h3 className="text-base text-blue-700 font-semibold uppercase tracking-wide">
+            <h3 className="text-base text-[#4fced5] font-semibold uppercase tracking-wide">
               Price :
             </h3>
             <p className="text-base font-bold self-start">{content?.price}</p>
@@ -61,11 +61,11 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, content }) => {
             </h3>
             <p className="text-base flex items-center gap-2">
               {" "}
-              <BadgeCheck className="text-blue-700 w-4 h-4" /> {content?.f1}
+              <BadgeCheck className="text-[#4fced5] w-4 h-4" /> {content?.f1}
             </p>
             <p className="text-base flex items-center gap-2">
               {" "}
-              <BadgeCheck className="text-blue-700 w-4 h-4" />
+              <BadgeCheck className="text-[#4fced5] w-4 h-4" />
               {content?.f2}
             </p>
           </div>
